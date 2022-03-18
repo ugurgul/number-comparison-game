@@ -46,6 +46,8 @@ public class GameManager : MonoBehaviour
         dairelerManager = Object.FindObjectOfType<DairelerManager>();
         trueFalseManager = Object.FindObjectOfType<TrueFalseManager>();
 
+        Debug.Log(timerManager);
+
         audioSource = GetComponent<AudioSource>();
     }
 
@@ -301,10 +303,6 @@ public class GameManager : MonoBehaviour
 
         ustText.text = bolunen1 + " / " + bolen1;
         altText.text = bolunen2 + " / " + bolen2;
-
-
-
-
 
     }
 
